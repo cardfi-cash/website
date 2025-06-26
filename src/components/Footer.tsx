@@ -31,7 +31,7 @@ const Footer = () => {
         window.open("https://t.me/+ukjqIc0qpfcwN2U1")
       } },
       { name: 'Twitter', action: () => {window.open("https://x.com/cardficash")} },
-      { name: 'GitHub', action: () => {window.open("https://github.com/cardfi")} },
+      { name: 'GitHub', action: () => {window.open("https://github.com/cardfi-cash")} },
     ],
     Legal: [
       { name: 'Privacy Policy', action: () => {} },
@@ -42,7 +42,7 @@ const Footer = () => {
   }
 
   const socialLinks = [
-    { name: 'GitHub', icon: <Github className="w-5 h-5" />, href: 'https://github.com/cardfi' },
+    { name: 'GitHub', icon: <Github className="w-5 h-5" />, href: 'https://github.com/cardfi-cash' },
     { name: 'Twitter', icon: <Twitter className="w-5 h-5" />, href: 'https://x.com/cardficash' },
     { name: 'Telegram', icon: <Send className="w-5 h-5" />, href: 'https://t.me/+ukjqIc0qpfcwN2U1' },
     { name: 'Email', icon: <Mail className="w-5 h-5" />, href: 'mailto:contact@cardfi.cash' }

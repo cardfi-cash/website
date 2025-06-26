@@ -28,7 +28,7 @@ const Community = () => {
       members: "800+",
       gradient: "from-gray-700 to-gray-900",
       bgColor: "from-gray-50 to-gray-100",
-      url:"https://github.com/cardfi"
+      url:"https://github.com/cardfi-cash"
     }
   ]
 

@@ -60,7 +60,7 @@ const DemoProtocols = () => {
                   {protocol.icon}
                 </div>
                 <button className="text-gray-400 hover:text-gray-600 transition-colors">
-                  <ExternalLink className="w-5 h-5" />
+                  <ExternalLink className="w-5 h-5" href={protocol.url} />
                 </button>
               </div>
 
