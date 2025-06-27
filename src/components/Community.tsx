@@ -7,7 +7,7 @@ const Community = () => {
       name: "Telegram",
       icon: <Send className="w-6 h-6" />,
       description: "Join our active community for real-time discussions and updates",
-      members: "5.2K+",
+      members: "6+",
       gradient: "from-blue-500 to-cyan-500",
       bgColor: "from-blue-50 to-cyan-50",
       url:"https://t.me/+ukjqIc0qpfcwN2U1"
@@ -16,7 +16,7 @@ const Community = () => {
       name: "Twitter",
       icon: <Twitter className="w-6 h-6" />,
       description: "Follow us for the latest announcements and industry insights",
-      members: "12K+",
+      members: "15+",
       gradient: "from-blue-400 to-blue-600",
       bgColor: "from-blue-50 to-blue-100",
       url:"https://x.com/cardficash"
@@ -25,7 +25,7 @@ const Community = () => {
       name: "GitHub",
       icon: <Github className="w-6 h-6" />,
       description: "Contribute to our open-source development and documentation",
-      members: "800+",
+      members: "20+",
       gradient: "from-gray-700 to-gray-900",
       bgColor: "from-gray-50 to-gray-100",
       url:"https://github.com/cardfi-cash"
@@ -54,10 +54,10 @@ const Community = () => {
   ]
 
   const stats = [
-    { label: "Community Members", value: "18K+", icon: <Users className="w-6 h-6" /> },
-    { label: "GitHub Stars", value: "2.1K+", icon: <Star className="w-6 h-6" /> },
-    { label: "Active Contributors", value: "150+", icon: <Heart className="w-6 h-6" /> },
-    { label: "Supported Chains", value: "5+", icon: <MessageCircle className="w-6 h-6" /> }
+    { label: "Community Members", value: "18+", icon: <Users className="w-6 h-6" /> },
+    { label: "GitHub Stars", value: "20+", icon: <Star className="w-6 h-6" /> },
+    { label: "Active Contributors", value: "15+", icon: <Heart className="w-6 h-6" /> },
+    { label: "Supported Chains", value: "15+", icon: <MessageCircle className="w-6 h-6" /> }
   ]
 
   return (
