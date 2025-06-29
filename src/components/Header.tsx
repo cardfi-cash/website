@@ -59,10 +59,10 @@ const Header = () => {
               Community
             </button>
             <button 
-              onClick={() => scrollToSection('community')}
+              onClick={() => {window.open("http://docs.cardfi.cash/")}}
               className="bg-gradient-to-r from-pink-500 to-blue-400 text-white px-6 py-2 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-200 font-medium"
             >
-              Join Community
+              Docs
             </button>
           </div>
 
@@ -97,10 +97,10 @@ const Header = () => {
                 Community
               </button>
               <button 
-                onClick={() => scrollToSection('community')}
+                onClick={() =>  {window.open("http://docs.cardfi.cash/")}}
                 className="w-full bg-gradient-to-r from-pink-500 to-blue-400 text-white px-3 py-2 rounded-lg hover:shadow-lg transition-all duration-200 font-medium"
               >
-                Join Community
+                Docs
               </button>
             </div>
           </div>

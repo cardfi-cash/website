@@ -165,7 +165,10 @@ const Vision = () => {
               </div>
             </div>
             
-            <button className="bg-white text-pink-600 px-8 py-4 rounded-full font-semibold text-lg hover:shadow-lg hover:scale-105 transition-all duration-200 inline-flex items-center gap-2">
+            <button className="bg-white text-pink-600 px-8 py-4 rounded-full font-semibold text-lg hover:shadow-lg hover:scale-105 transition-all duration-200 inline-flex items-center gap-2"
+            onClick={
+              ()=> {window.open("http://docs.cardfi.cash/")}
+            }>
               Join Our Mission
               <ArrowRight className="w-5 h-5" />
             </button>
